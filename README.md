@@ -1,52 +1,50 @@
-**AGRICULTURAL TEXT CLASSIFICATION METHOD BASED ON DYNAMIC FUSION OF MULTIPLE FEATURES**
+# 🌾 AGRICULTURAL TEXT CLASSIFICATION METHOD BASED ON DYNAMIC FUSION OF MULTIPLE FEATURES
 
-# 🌾 Agricultural Text Classification — Dynamic Fusion of Multiple Features
+A Text Classification System designed for agricultural text classification using a **Multi-Feature Dynamic Fusion architecture** involving **CNN, Bi-LSTM, and Attention** mechanisms to improve accuracy in crop-related text classification.
 
-A **Text Classification System** designed to classify agricultural text based on phenotypic numerical values using a **Multi-Feature Dynamic Fusion model** combining CNN, Bi-LSTM, and Attention mechanisms.
-
-🚀 Built using **Python + Django**, featuring ML pipelines and interactive web visualizations.
+🚀 Built using **Python + Django**, featuring prediction interface and model evaluation visualizations.
 
 ---
 
 ## 📌 Project Objectives
 
-* Extract **global semantic features** using Bi-LSTM + Attention
-* Extract **local multi-scale features** using Multiple CNN kernels
-* Create a **numerical feature vector** for phenotypic attributes
-* Use **Attention-based fusion** to dynamically weight multiple features
-* Improve classification accuracy for agricultural datasets
+* Extract **global semantic features** using **Bi-LSTM + Attention**
+* Extract **local multi-scale features** using **Multi-scale CNN filters**
+* Construct numerical feature vectors for agricultural phenotypic attributes
+* Dynamically fuse multiple features using **Attention Fusion**
+* Achieve improved agricultural dataset classification performance
 
 ---
 
 ## 🧠 System Architecture
 
-* **Frontend** : HTML, CSS, JavaScript
-* **Backend** : Django Framework
-* **ML Models** : MLP-Classifier, GradientBoostingClassifier, Ensemble Voting
-* **Database** : MySQL (WAMP Server)
-* **Dataset** : `Datasets.csv` (Agricultural text)
+| Layer                | Technology Used               |
+| -------------------- | ----------------------------- |
+| Frontend             | HTML, CSS, JavaScript         |
+| Backend              | Django Framework              |
+| Deep Learning Models | Bi-LSTM + Attention + Mul-CNN |
+| Database             | MySQL (WAMP Server)           |
+| Dataset              | Agricultural Dataset (.csv)   |
 
 ---
 
-## ✅ Features / Modules (Admin & User)
+## ✅ Features / Modules
 
-| Role                         | Features                                                                      |
-| ---------------------------- | ----------------------------------------------------------------------------- |
-| **Service Provider (Admin)** | Train & Test Datasets, Bar & Pie Charts, View Users, Download Classified Data |
-| **Remote User**              | Register/Login, Predict Crop Classification, View Profile                     |
+| Role                         | Features                                                                 |
+| ---------------------------- | ------------------------------------------------------------------------ |
+| **Service Provider (Admin)** | Upload Dataset, Train/Test Model, View Accuracy Graphs, Download Results |
+| **Remote User**              | Register/Login, Submit Query Text for Prediction, View Output            |
 
 ---
 
-## 📊 Output Screens
+## 📊 Output Screens (as per report)
 
-* 🔹 Home Page
-* 🔹 Service Provider Login
-* 🔹 Dataset Upload & Train/Test
-* 🔹 Accuracy View – **Bar Graph**
-* 🔹 Classification Type – **Pie Chart**
-* 🔹 Prediction Interface
-
-> (Screens referenced from report pages: 45–48) 
+🔹 Home / Landing Page
+🔹 Admin Login
+🔹 Dataset Upload & Training Page
+🔹 **Bar Graph** – Model Accuracy
+🔹 **Pie Chart** – Classification Category Split
+🔹 Crop Text Prediction Interface
 
 ---
 
@@ -54,59 +52,46 @@ A **Text Classification System** designed to classify agricultural text based on
 
 ### ✅ Prerequisites
 
-```bash
-Python 3.x
-Django Framework
-MySQL / WAMP Server
-```
+* Python 3.x
+* Django Framework
+* MySQL / WAMP Server
 
-### ✅ Install Dependencies
+### ✅ Run the Project
 
 ```bash
 pip install -r requirements.txt
-```
-
-### ✅ Run Django Server
-
-```bash
 python manage.py runserver
 ```
 
+▶ Open Browser → [http://localhost:8000/](http://localhost:8000/) ✅
+
 ---
 
-## 📈 Model Accuracy
+## 📈 Performance
 
-* Ensemble Learning using MLP + Gradient Boosting
-* Voting Classifier used for final predictions
-* Accuracy metrics displayed via bar charts ✔️
-
-(Accuracy code confirmed in report ML section) 
+* Accuracy observed on trained agricultural text data
+* Visual performance shown using charts
+* Better classification compared to traditional ML techniques
 
 ---
 
 ## 📌 Future Enhancements
 
-(According to report section) 
-
-* Integrate **Transformers (BERT / GPT models)**
-* Add **multimodal data** (images/videos)
-* Real-time decision support using edge computing
-* Incremental & adaptive learning
+* Integrate **Transformer models (BERT, GPT)**
+* Real-time prediction for agriculture decision-support
+* Multimodal data: **Text + Sensor + Image fusion**
+* Cloud deployment for wider accessibility
 
 ---
 
 ## 🏁 Conclusion
 
-The proposed **dynamic fusion technique** demonstrates improved performance and better semantic feature extraction for agricultural texts.
+This work demonstrates that **Dynamic Fusion of Multi-Scale and Semantic Features** significantly enhances agricultural text comprehension and classification effectiveness.
 
 ---
 
-## 🧑‍💻 Authors
+## 👨‍💻 Author
 
-| Name           | Reg No.       |
-| -------------- | ------------- |
-| Padilam Tharun | 22Q95A7205    |
-| Team Members   | As per report |
-
----
+**Padilam Tharun**
+B.Tech – Artificial Intelligence & Data Science
 
